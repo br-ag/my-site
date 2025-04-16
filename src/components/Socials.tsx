@@ -1,26 +1,31 @@
+import { FaLinkedin, FaGoogle, FaGithub } from "react-icons/fa6";
+
 export const Socials = () => {
-    const navList = [
-      {
-        name: "github",
-        icon: "About",
-      },
-      {
-        name: "linkedin",
-        icon: "Experience",
-      },  
-      {
-        name: "gmail",
-        icon: "Projects",
-      },
-    ];
-  
-    return (
-      <nav>
-        {navList.map((item) => {
-          console.log("ITEM", item);
-          return <a href="">{item?.name}</a>;
-        })}
-      </nav>
-    );
-  };
-  
+  const navList = [
+    {
+      name: "github",
+      icon: FaGithub,
+    },
+    {
+      name: "linkedin",
+      icon: FaLinkedin,
+    },
+    {
+      name: "gmail",
+      icon: FaGoogle,
+    },
+  ];
+
+  return (
+    <nav className="flex gap-4">
+      {navList.map((item, index) => {
+        const Icon = item.icon;
+        return (
+          <a key={index} href="#" aria-label={item.name}>
+            <Icon size={24} />
+          </a>
+        );
+      })}
+    </nav>
+  );
+};
