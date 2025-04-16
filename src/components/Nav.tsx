@@ -12,11 +12,11 @@ export const Nav = () => {
   ];
 
   return (
-    <nav>
+    <div className="flex flex-col">
       {navList.map((item) => {
         console.log("ITEM", item);
         return <a href="">{item?.section}</a>;
       })}
-    </nav>
+    </div>
   );
 };
