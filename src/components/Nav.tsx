@@ -5,18 +5,22 @@ export const Nav = () => {
     },
     {
       section: "Experience",
-    },  
+    },
     {
       section: "Projects",
     },
   ];
 
   return (
-    <nav>
+    <ul className="flex flex-col">
       {navList.map((item) => {
         console.log("ITEM", item);
-        return <a href="">{item?.section}</a>;
+        return (
+          <li>
+            <a href="">{item?.section}</a>
+          </li>
+        );
       })}
-    </nav>
+    </ul>
   );
 };
