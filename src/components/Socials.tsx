@@ -17,15 +17,17 @@ export const Socials = () => {
   ];
 
   return (
-    <nav className="flex gap-4">
+    <ul className="ml-1 mt-8 flex items-center">
       {navList.map((item, index) => {
         const Icon = item.icon;
         return (
-          <a key={index} href="#" aria-label={item.name}>
-            <Icon size={24} />
-          </a>
+          <li className="mr-5">
+            <a className="block hover:text-white" key={index} href="#" aria-label={item.name}>
+              <Icon size={25} />
+            </a>
+          </li>
         );
       })}
-    </nav>
-  );
+    </ul>
+  ) ;
 };
