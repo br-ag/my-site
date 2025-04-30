@@ -16,6 +16,7 @@ export const Projects = () => {
         "ERPNext",
         "Web Application",
       ],
+      link: "https://github.com/br-ag/jcwd220405",
     },
   ];
   return (
@@ -25,7 +26,7 @@ export const Projects = () => {
       aria-label="Selected projects"
     >
       <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-[#38040e]/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
-        <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">
+        <h2 className="text-sm font-bold uppercase tracking-widest text-[#ffccd5] lg:sr-only">
           Projects
         </h2>
       </div>
@@ -38,8 +39,8 @@ export const Projects = () => {
                 <div className="z-10 sm:order-2 sm:col-span-6">
                   <h3>
                     <a
-                      className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-[#ff0a54] focus-visible:text-teal-300  group/link text-base"
-                      href=""
+                      className="inline-flex items-baseline font-medium leading-tight text-[#ffccd5] hover:text-[#ff0a54] focus-visible:text-teal-300  group/link text-base"
+                      href={item?.link}
                       target="_blank"
                       rel="noreferrer noopener"
                       aria-label={item?.project}
@@ -74,7 +75,7 @@ export const Projects = () => {
                   height="48"
                   decoding="async"
                   data-nimg="1"
-                  className="aspect-video object-cover rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
+                  className="aspect-video object-cover rounded border-2 border-[#ffccd5]/10 transition group-hover:border-[#ffccd5]/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
                   style={{ color: "transparent" }}
                   src={mokomdo_thumbnail}
                   srcSet={`${mokomdo_thumbnail} 1x, ${mokomdo_thumbnail} 2x`}
@@ -83,9 +84,9 @@ export const Projects = () => {
             </li>
           ))}
         </ul>
-        <div className="mt-12">
+        {/* <div className="mt-12">
           <a
-            className="inline-flex items-center font-medium leading-tight text-slate-200 font-semibold group hover:text-[#ff0a54]"
+            className="inline-flex items-center font-medium leading-tight text-[#ffccd5] font-semibold group hover:text-[#ff0a54]"
             aria-label="View Full Project Archive"
             href="/archive"
           >
@@ -110,7 +111,7 @@ export const Projects = () => {
               </span>
             </span>
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );

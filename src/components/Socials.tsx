@@ -5,14 +5,17 @@ export const Socials = () => {
     {
       name: "github",
       icon: FaGithub,
+      link: "https://github.com/br-ag",
     },
     {
       name: "linkedin",
       icon: FaLinkedin,
+      link: "https://www.linkedin.com/in/briandikaag/",
     },
     {
       name: "gmail",
       icon: FaGoogle,
+      link: "mailto:briandika.mankin@gmail.com",
     },
   ];
 
@@ -22,7 +25,7 @@ export const Socials = () => {
         const Icon = item.icon;
         return (
           <li className="mr-5">
-            <a className="block hover:text-white" key={index} href="#" aria-label={item.name}>
+            <a className="block hover:text-white" key={index} href={item?.link} aria-label={item.name} target="_blank">
               <Icon size={25} />
             </a>
           </li>

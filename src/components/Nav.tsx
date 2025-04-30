@@ -19,7 +19,7 @@ export const Nav = () => {
           return (
             <li>
               <a className="group flex items-center py-3 active" href={ "#" + item?.section.toLowerCase()}>
-                <span className="nav-indicator mr-4 h-px w-8 bg-[#ff0a54] transition-all group-hover:w-16 group-hover:bg-white group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
+                <span className="nav-indicator mr-4 h-px w-8 bg-[#ff0a54] transition-all group-hover:w-16 group-hover:bg-white group-focus-visible:w-16 group-focus-visible:bg-[#ffccd5] motion-reduce:transition-none"></span>
                 <span className="nav-text text-xs font-bold uppercase tracking-widest group-hover:text-white group-focus-visible:text-white">
                   {item?.section}
                 </span>

@@ -14,6 +14,7 @@ export const Resume = () => {
       ],
       period: "June 2023 - February 2025",
       desc: "I contribute across the full stack to enhance feature functionality and performance in a scalable ERP system, working closely with clients to align solutions with their business processes. My role involves designing intuitive interfaces, building reliable backend logic, and maintaining high-quality code through thorough testing and optimization to ensure long-term efficiency and a seamless user experience.",
+      link: ""
     },
     {
       company: "kaptenmulyono.org",
@@ -21,6 +22,7 @@ export const Resume = () => {
       stacks: ["JavaScript", "HTML", "CSS", "React", "Chakra UI", "Node.js"],
       period: "March 2023",
       desc: "I designed, developed, and hosted a website for a historical figure, working closely with the client to bring their vision to life. The project focused on creating tailored designs that matched the theme and content while ensuring a user-friendly and engaging experience.",
+      link: "https://kaptenmulyono.org/",
     },
   ];
 
@@ -31,7 +33,7 @@ export const Resume = () => {
       aria-label="Work experience"
     >
       <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-[#38040e]/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
-        <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">
+        <h2 className="text-sm font-bold uppercase tracking-widest text-[#ffccd5] lg:sr-only">
           Experience
         </h2>
       </div>
@@ -48,11 +50,11 @@ export const Resume = () => {
                   {item?.period}
                 </header>
                 <div className="z-10 sm:col-span-6">
-                  <h3 className="font-medium leading-snug text-slate-200">
+                  <h3 className="font-medium leading-snug text-[#ffccd5]">
                     <div>
                       <a
-                        className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-[#ff0a54] focus-visible:text-teal-300  group/link text-base"
-                        href=""
+                        className="inline-flex items-baseline font-medium leading-tight text-[#ffccd5] hover:text-[#ff0a54] focus-visible:text-teal-300  group/link text-base"
+                        href={item?.link}
                         target="_blank"
                         rel="noreferrer noopener"
                         aria-label={item?.position}
@@ -101,13 +103,14 @@ export const Resume = () => {
 
         <div className="mt-12">
           <a
-            className="inline-flex items-center font-medium leading-tight text-slate-200 font-semibold group hover:text-[#ff0a54]"
+            className="inline-flex items-center font-medium leading-tight text-[#ffccd5] font-semibold group hover:text-[#ff0a54]"
             aria-label="View Full Project Archive"
-            href="/archive"
+            href="/brian-resume"
+            target="_blank"
           >
             <span>
               <span className="border-b-2 border-transparent pb-px transition group-hover:border-[#ff0a54] motion-reduce:transition-none text-white">
-                View Full Project Archive
+                View Full Resume
               </span>
               <span className="whitespace-nowrap ">
                 <svg
