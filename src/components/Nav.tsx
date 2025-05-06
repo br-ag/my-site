@@ -15,7 +15,6 @@ export const Nav = () => {
     <nav className="nav hidden lg:block">
       <ul className="mt-16 w-max">
         {navList.map((item) => {
-          console.log("ITEM", item);
           return (
             <li>
               <a className="group flex items-center py-3 active" href={ "#" + item?.section.toLowerCase()}>
