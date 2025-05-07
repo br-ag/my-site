@@ -12,7 +12,7 @@
 <p align="center">
   [br-ag.vercel.com](https://br-ag.vercel.app/)
   <a href="https://br-ag.vercel.app/" target="_blank">
-    <img src="[https://api.netlify.com/api/v1/badges/1963b488-7b78-48c9-9e2d-6fb5e47ab3af/deploy-status](https://deploy-badge.vercel.app/vercel/br-ag?style=plastic&name=Vercel)" alt="Vercel Status" />
+    <img src="https://deploy-badge.vercel.app/vercel/br-ag?style=plastic&name=Vercel" alt="Vercel Status" />
   </a>
 </p>
 
