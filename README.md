@@ -9,6 +9,8 @@
 </p>
 
 ![demo](https://raw.githubusercontent.com/br-ag/portofolio/refs/heads/develop/src/img/preview_01.png)
+## 📺 VERCEL DEMO
+[br-ag.vercel.com](https://br-ag.vercel.app/)
 
 <h2 align="center">
   "It ain't much, but it's honest work"
@@ -45,3 +47,4 @@ This project is my personal attempt to recreate the design of [brittanychiang.co
    ```sh
    npm run dev
    ```
+
