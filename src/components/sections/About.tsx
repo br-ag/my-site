@@ -4,8 +4,8 @@ export const About = () => {
       <p className="mb-4">
         I’m a Software Engineer focused on building efficient, user-centric
         solutions with clean, scalable code. While I enjoy working across the
-        stack, I’m especially drawn to backend engineering and app accessibility
-        — I believe the best software is software that everyone can use.
+        stack, I’m especially drawn to backend engineering and app accessibility.
+        I believe the best software is software that everyone can use.
       </p>
       <p className="mb-4">
         Currently, I’m a Junior Software Engineer, contributing to the
