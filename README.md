@@ -1,18 +1,26 @@
+<div align="center">
+  <img alt="Logo" src="https://raw.githubusercontent.com/br-ag/portofolio/refs/heads/develop/src/img/my_logo.png" width="100" />
+</div>
+<h1 align="center">
+  br-ag
+</h1>
+<p align="center">
+  A simple frontend project built with <a href="https://react.dev/" target="_blank">React</a> and <a href="https://vite.dev/" target="_blank">Vite</a>, designed for speed, simplicity, and scalability.
+</p>
+
+![demo](https://raw.githubusercontent.com/br-ag/portofolio/refs/heads/develop/src/img/preview_01.png)
+
 <h2 align="center">
   "It ain't much, but it's honest work"
   <br />
   - Ohio farmer David Brandt
 </h2>
 
-# My Portfolio
-
-A simple frontend project built with **React** and **Vite**, designed for speed, simplicity, and scalability.
-
 ### 🚨 TL;DR
 
 This project is my personal attempt to recreate the design of [brittanychiang.com](https://brittanychiang.com) using React and Vite.
 
-## 📦 Installation
+## 🛠 Installation
 
 1. Install the Vite CLI
 
