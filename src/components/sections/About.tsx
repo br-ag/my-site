@@ -20,7 +20,7 @@ export const About = () => {
       </p>
       <p className="mb-4">
         Outside of work, I love going on long motorbike trips and exploring new
-        places — the road helps me reset and refuel for what’s next.
+        places, the road helps me reset and refuel for what’s next.
       </p>
     </section>
   );
