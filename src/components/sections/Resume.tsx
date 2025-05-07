@@ -105,7 +105,7 @@ export const Resume = () => {
           <a
             className="inline-flex items-center font-medium leading-tight text-[#ffccd5] font-semibold group hover:text-[#ff0a54]"
             aria-label="View Full Project Archive"
-            href="/brian-resume"
+            href="/brian-resume.pdf"
             target="_blank"
           >
             <span>

@@ -84,11 +84,12 @@ export const Projects = () => {
             </li>
           ))}
         </ul>
-        {/* <div className="mt-12">
+        <div className="mt-12">
           <a
             className="inline-flex items-center font-medium leading-tight text-[#ffccd5] font-semibold group hover:text-[#ff0a54]"
             aria-label="View Full Project Archive"
-            href="/archive"
+            href="https://github.com/br-ag?tab=repositories"
+            target="_blank"
           >
             <span>
               <span className="border-b-2 border-transparent pb-px transition group-hover:border-[#ff0a54] motion-reduce:transition-none text-white">
@@ -111,7 +112,7 @@ export const Projects = () => {
               </span>
             </span>
           </a>
-        </div> */}
+        </div>
       </div>
     </section>
   );

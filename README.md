@@ -1,2 +1,47 @@
-# portofolio
-My website
+<div align="center">
+  <img alt="Logo" src="https://raw.githubusercontent.com/br-ag/portofolio/refs/heads/develop/src/img/my_logo.png" width="100" />
+</div>
+<h1 align="center">
+  br-ag
+</h1>
+<p align="center">
+  A simple frontend project built with <a href="https://react.dev/" target="_blank">React</a> and <a href="https://vite.dev/" target="_blank">Vite</a>, designed for speed, simplicity, and scalability.
+</p>
+
+![demo](https://raw.githubusercontent.com/br-ag/portofolio/refs/heads/develop/src/img/preview_01.png)
+
+<h2 align="center">
+  "It ain't much, but it's honest work"
+  <br />
+  - Ohio farmer David Brandt
+</h2>
+
+### 🚨 TL;DR
+
+This project is my personal attempt to recreate the design of [brittanychiang.com](https://brittanychiang.com) using React and Vite.
+
+## 🛠 Installation
+
+1. Install the Vite CLI
+
+   ```sh
+   npm install -g @vitejs/cli
+   ```
+
+2. Install and use the correct version of Node using [NVM](https://github.com/nvm-sh/nvm)
+
+   ```sh
+   nvm install
+   ```
+
+3. Install dependencies
+
+   ```sh
+   yarn
+   ```
+
+4. Start the development server
+
+   ```sh
+   npm run dev
+   ```
