@@ -10,10 +10,11 @@
 
 ![demo](https://raw.githubusercontent.com/br-ag/portofolio/refs/heads/develop/src/img/preview_01.png)
 <p align="center">
-  [br-ag.vercel.com](https://br-ag.vercel.app/)
-  <a href="https://br-ag.vercel.app/" target="_blank">
-    <img src="https://deploy-badge.vercel.app/vercel/br-ag?style=plastic&name=Vercel" alt="Vercel Status" />
+  <a href="https://br-ag.vercel.app/">
+    br-ag.vercel.com
   </a>
+  <br />
+  <img src="https://deploy-badge.vercel.app/vercel/br-ag?style=plastic&name=Vercel" alt="Vercel Status" />
 </p>
 
 <h2 align="center">
