@@ -26,7 +26,9 @@
 
 ### 🚨 TL;DR
 
-This project is my personal attempt to recreate the design of [brittanychiang.com](https://brittanychiang.com) using React and Vite.
+<p>
+  This project is my personal attempt to recreate the design of <a href="https://brittanychiang.com" target="_blank">brittanychiang.com</a> using React and Vite.
+</p>
 
 ## 🛠 Installation
 
