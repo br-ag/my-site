@@ -24,12 +24,6 @@
   - Ohio farmer David Brandt
 </h2>
 
-### 🚨 TL;DR
-
-<p>
-  This project is my personal attempt to recreate the design of <a href="https://brittanychiang.com" target="_blank">brittanychiang.com</a> using React and Vite.
-</p>
-
 ## 🛠 Installation
 
 1. Install the Vite CLI
