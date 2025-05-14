@@ -2,6 +2,8 @@
 import "./App.css";
 // import { useState } from "react";
 
+import { Analytics } from '@vercel/analytics/react';
+
 // sections
 import { Handle } from "./components/Handle";
 import { About } from "./components/sections/About";
@@ -37,6 +39,7 @@ function App() {
           </main>
         </div>
       </div>
+      <Analytics />
     </div>
   );
 }
