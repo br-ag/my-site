@@ -5,7 +5,7 @@
   br-ag
 </h1>
 <p align="center">
-  A simple frontend project built with <a href="https://react.dev/" target="_blank">React</a> and <a href="https://vite.dev/" target="_blank">Vite</a>, inspired by modern developer portfolios. While I didn’t design it myself, I recreated it to practice and improve my frontend skills (I'm more of a backend kind of person).
+  A simple frontend project built with <a href="https://react.dev/" target="_blank">React</a> and <a href="https://vite.dev/" target="_blank">Vite</a>, inspired by modern developer portfolios.
 </p>
 
 ![demo](https://raw.githubusercontent.com/br-ag/portofolio/refs/heads/develop/src/img/preview_01.png)
